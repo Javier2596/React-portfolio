@@ -9,8 +9,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
-          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+          // conditional (ternary) operator checks if the current page is "Home"
+          // If so, sets current page to 'nav-link-active', else 'nav-link'
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
           Home
@@ -61,3 +61,6 @@ function NavTabs({ currentPage, handlePageChange }) {
 }
 
 export default NavTabs;
+
+
+// add bootstrap this or change nav-link to self made css !!!
