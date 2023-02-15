@@ -10,14 +10,27 @@ const styles = {
   },
 };
 
-export default function Resume() {
+export default function Resume() { 
   return (
     <div style={styles.content}>
       <h1>My Resume</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        
-      </p>
+      <div style={styles.image}>
+      
+    </div>
+
+
+      <p>Proficiencies in:</p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Jquery</li>
+        <li>Express.js</li>
+        <li>MongoDB</li>
+        <li>Node.js</li>
+        <li>React</li>
+        <li>SQL</li>
+      </ul>
     </div>
   );
 }
