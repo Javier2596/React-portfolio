@@ -1,0 +1,40 @@
+.page {
+  background:rgb(54, 180, 132);
+
+}
+
+.header {
+  background: #063308;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+.header h1 {
+  margin: 0;
+  padding-top: 50px;
+  text-align: left;
+  text-indent: 75px;
+  color: beige;
+  font-size: 3rem; 
+}
+
+
+.image {
+  margin: 0;
+  border: rgb(12, 104, 40);
+  border-spacing: 5px;
+  border-width: 1px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-size: 2rem;
+  
+}
+
+.Navbar {
+  margin: 0;
+  padding-bottom: 0px;
+  text-align:right;
+  color: rgb(186, 238, 137);
+  font-size: 2rem;
+}

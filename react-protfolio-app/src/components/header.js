@@ -1,6 +1,7 @@
 import React from 'react';
+
 // importing a CSS file as a dependency
-import '../styles/Header.css';
+import '../styles/index.css';
 
 function Header() {
   return (

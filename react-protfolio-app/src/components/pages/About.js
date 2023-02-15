@@ -1,8 +1,19 @@
 import React from 'react';
 
+const styles = {
+  content: {
+    margin: 100,
+    marginTop: 50,
+    fontFamily: 'Lucida Sans',
+    fontSize: 25,
+    color: 'beige',
+  },
+};
+
+
 export default function About() {
   return (
-    <div>
+    <div style={styles.content}>
       <h1>About Me</h1>
       
       <p>
