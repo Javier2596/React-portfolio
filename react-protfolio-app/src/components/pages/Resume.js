@@ -1,26 +1,16 @@
 import React from 'react';
 
-const styles = {
-  content: {
-    margin: 100,
-    marginTop: 50,
-    fontFamily: 'Lucida Sans',
-    fontSize: 25,
-    color: 'beige',
-  },
-};
-
 export default function Resume() { 
   return (
-    <div style={styles.content}>
+    <div>
       <h1>My Resume</h1>
-      <div style={styles.image}>
+      <div>
       
     </div>
 
 
-      <p>Proficiencies in:</p>
-      <ul>
+      <p className="pt-3">Proficiencies in:</p>
+      <ul className="m-3 p-3">
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
@@ -29,7 +19,12 @@ export default function Resume() {
         <li>MongoDB</li>
         <li>Node.js</li>
         <li>React</li>
-        <li>SQL</li>
+        <li>SQL & sequelize</li>
+        <li>Webpack</li>
+        <li>Object Oriented Programming (OOP)</li>
+        <li>Gitbash</li>
+        <li>VScode</li>
+        <li>RESTful APIs</li>
       </ul>
     </div>
   );
