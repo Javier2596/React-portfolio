@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
   return (
-      <header className=" p-4 bg-dark text-light">
+      <header className=" p-3 bg-dark text-light">
         <h1>Javier Martinez</h1>
       </header>
   );
