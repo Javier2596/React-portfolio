@@ -5,7 +5,7 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     
-    <ul className=" nav container-fluid justify-content-end bg-dark">
+    <ul className=" nav container-fluid justify-content-end header">
       <li className="nav-item">
         <a
           href="#home"

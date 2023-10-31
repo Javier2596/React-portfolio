@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/index.css';
 
 function Header() {
   return (
-      <header className=" p-3 bg-dark text-light">
+      <header className="header container-fluid">
         <h1>Javier Martinez</h1>
       </header>
   );
