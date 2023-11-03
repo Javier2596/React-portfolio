@@ -9,8 +9,8 @@ export default function Resume() {
     </div>
 
 
-      <p className="pt-3">Proficiencies in:</p>
-      <ul className="m-3 p-3">
+      <p className="p-2">Proficiencies in:</p>
+      <ul className="m-3 p-4">
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>

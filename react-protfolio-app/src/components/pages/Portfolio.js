@@ -1,4 +1,6 @@
 import React from 'react'; 
+import img2 from '../../images/PokeProj.png';
+import img3 from '../../images/IntentionalHealth.png';
 
 export default function Portfolio() {
   return (
@@ -8,7 +10,7 @@ export default function Portfolio() {
     <div className="m-3 p-3">
       <a href="https://mayamckinney.github.io/tumblr-marvel/">
         <div>
-          <img src="../images/PokeProj.png" alt="Pokemon Search"></img>
+          <img src={img2} alt="Pokemon Search"></img>
         </div>
       </a>  
     </div>
@@ -16,7 +18,7 @@ export default function Portfolio() {
     <div className="m-3 p-3">
       <a href="https://intentional-health.herokuapp.com/">
         <div>
-          <img src="../images/IntentionalHealth.png" alt="Intentional Health"></img>    
+          <img src={img3} alt="Intentional Health"></img>    
         </div>
       </a>  
     </div>
