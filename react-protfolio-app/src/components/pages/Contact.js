@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div>
+    <div className="p-4">
       <h1>Contact</h1>
       <h2>Name:</h2>
 

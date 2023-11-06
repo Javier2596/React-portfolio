@@ -2,15 +2,11 @@ import React from 'react';
 
 export default function Resume() { 
   return (
-    <div>
+    <div className="p-4">
       <h1>My Resume</h1>
-      <div>
-      
-    </div>
-
 
       <p className="p-2">Proficiencies in:</p>
-      <ul className="m-3 p-4">
+      <ul className="m-3 p-2">
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
