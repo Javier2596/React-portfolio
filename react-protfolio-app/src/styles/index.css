@@ -8,12 +8,11 @@ body {
 }
 .header {
   background: black;
-  padding: 1px; 
   color: white;
 }
 .foot {
   background: black;
-  padding: 3px; 
+   
   color: white;
   right:0;
   left:0;
