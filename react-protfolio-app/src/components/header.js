@@ -3,7 +3,7 @@ import '../styles/index.css';
 
 function Header() {
   return (
-      <header className="header container-fluid">
+      <header className="header container-fluid text-center">
         <h1>Javier Martinez</h1>
       </header>
   );

@@ -25,4 +25,8 @@ body {
 }
 .images {
   max-width: 500px;
+  box-shadow: 5px 5px 5px rgb(112, 109, 109);
+}
+.images:hover {
+  box-shadow: 6px 6px 6px 3px rgb(0, 112, 168);
 }
