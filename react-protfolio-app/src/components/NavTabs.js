@@ -5,8 +5,8 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     
-    <ul className=" nav container-fluid justify-content-end header">
-      <li className="nav-item">
+    <ul className="nav container-fluid justify-content-end header">
+      <li>
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -17,7 +17,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Home
         </a>
       </li>  
-      <li className="nav-item">  
+      <li>  
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -27,7 +27,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           About
         </a>
       </li>  
-      <li className="nav-item">
+      <li>
         <a
           href="#resume"
           onClick={() => handlePageChange('Resume')}
@@ -37,7 +37,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Resume
         </a>
       </li>  
-      <li className="nav-item">
+      <li>
         <a
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
@@ -47,7 +47,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>  
-      <li className='nav-item'>
+      <li>
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
