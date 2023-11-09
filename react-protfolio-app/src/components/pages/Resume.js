@@ -4,11 +4,11 @@ import '../../styles/index.css';
 export default function Resume() { 
   return (
     <div className="p-4">
-      <h1>My Resume</h1>
+      <h1 className="title">My Resume</h1>
 
-      <p className="py-2">For a more detailed description click the link <a href="https://docs.google.com/document/d/1fhyIqN1h8eqshcZqOZbVRrJ8c52oC8Z5ZHf1n2b6DyQ/edit?usp=sharing"> here</a>.</p>
-      <p>Proficiencies in:</p>
-      <ul className="m-3 p-2">
+      <p className="p-2">For a more detailed description click the link <a href="https://docs.google.com/document/d/1fhyIqN1h8eqshcZqOZbVRrJ8c52oC8Z5ZHf1n2b6DyQ/edit?usp=sharing"> here</a>.</p>
+      <h2 className="secti px-2">Proficiencies in:</h2>
+      <ul className="p-5">
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
@@ -24,7 +24,6 @@ export default function Resume() {
         <li>VScode</li>
         <li>RESTful APIs</li>
       </ul>
-      
     </div>
   );
 }

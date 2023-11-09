@@ -32,5 +32,11 @@ body {
 }
 .port {
   display:flex;
-  
+}
+.title {
+  color:rgb(226, 68, 68);
+  font-size:70px;
+}
+.secti {
+  color:rgb(226, 68, 68);
 }
