@@ -8,7 +8,7 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_dvwpytb', 'template_smkluqk', form.current, 'tZ6L-1yyWyqzRRf9T')
+    emailjs.sendForm(process.env.REACT_APP_SERVICE, process.env.REACT_APP_TEMPLATE, form.current, process.env.REACT_APP_USER)
       .then((result) => {
           console.log(result.text);
           console.log("message sent");
