@@ -8,7 +8,7 @@ export default function About() {
       <h1 className="title">About Me</h1>
       <img src={img1} alt="placeholder" className="profileimg"></img>
       <p className="py-3">
-        My name is Javier Martinez. I was born in Tucson, AZ and have lived here my whole life. I originally went to school for Criminal Justice Studies; but have since made a career change to study Web Development and pursue a career in the Web Dev industry. So far I have learned many differnt languages, databases, and libraries to increase my knowledge and better my career as a fullstack web developer. My goals are to continue learning and practicing everything I have learned in class so that I am comfortable applying to jobs in the industry; and to someday pass my knowledge and experiences to other web developers who are starting like me.   
+        My name is Javier. I originally went to school for Criminal Justice Studies; but have since made a career change to study Web Development and pursue a career in tech. So far I have been learning many differnt languages, databases, and libraries to increase my knowledge and better my career as a fullstack web developer. My goals are to continue learning and practicing everything I have learned in class and on my own so that I can apply to jobs in the industry and start my career. I would also like to someday pass my knowledge and experiences to other web developers who are starting out like I did. 
       </p>
     </div>
   );

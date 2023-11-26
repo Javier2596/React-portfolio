@@ -1,23 +1,35 @@
-import React from 'react';
+import React, {useRef} from 'react';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_dvwpytb', 'template_smkluqk', form.current, 'tZ6L-1yyWyqzRRf9T')
+      .then((result) => {
+          console.log(result.text);
+          console.log("message sent");
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <div className="p-4">
-      <h1 className="title">Contact</h1>
+      <h1 className="title">Send me a Message</h1>
       <div className="p-3">
-        <h2>Name:</h2>
-
-        <input></input>
-
-        <h2>Email address:</h2>
-
-        <input ></input>
-
-        <h2>Message</h2>
-
-        <textarea></textarea>
-
-        <button type='button'>Submit</button>
+      <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
       </div>   
     </div>
   );
