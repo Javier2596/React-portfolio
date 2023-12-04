@@ -48,6 +48,15 @@ section {
   color:rgb(226, 68, 68);
   font-size:70px;
 }
+
+.contact {
+  color:rgb(226, 68, 68);
+  font-size: 30px
+}
+
+.formSect {
+  display: flex;
+}
 .secti {
   color:rgb(226, 68, 68);
 }

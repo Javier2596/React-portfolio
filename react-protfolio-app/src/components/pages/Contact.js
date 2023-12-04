@@ -20,15 +20,21 @@ export default function Contact() {
   return (
     <div className="p-4">
       <h1 className="title">Send me a Message</h1>
-      <div className="p-3">
+      <div>
       <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
+        <div className="py-3">
+          <label className="contact">Name:</label>
+          <input type="text" name="user_name" />
+        </div>
+        <div className='py-3'>  
+          <label className="contact">Email:</label>
+          <input type="email" name="user_email" />
+        </div>
+        <div className='py-3'>
+          <label className="contact">Message:</label>
+          <textarea name="message" />
+          <input type="submit" value="Send" />
+        </div>  
     </form>
       </div>   
     </div>
