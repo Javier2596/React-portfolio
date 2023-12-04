@@ -24,19 +24,20 @@ export default function Contact() {
       <form ref={form} onSubmit={sendEmail}>
         <div className="py-3">
           <label className="contact">Name:</label>
-          <input type="text" name="user_name" />
+          <input type="text" name="user_name" className="form-control"/>
         </div>
         <div className='py-3'>  
           <label className="contact">Email:</label>
-          <input type="email" name="user_email" />
+          <input type="email" name="user_email" className="form-control"/>
         </div>
         <div className='py-3'>
           <label className="contact">Message:</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" />
-        </div>  
-    </form>
+          <textarea name="message" className="form-control" id="exampleFormControlTextarea1"/>
+        </div>
+          <input type="submit" value="Send" className="btn btn-outline-danger"/>  
+      </form>
       </div>   
+
     </div>
   );
 }
