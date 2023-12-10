@@ -17,17 +17,19 @@ section {
   background: black;
   color: white;
 }
-.navi {
+
+.nav-pills.custom-color{
   color:rgb(226, 68, 68);
+
 }
+
 .foot {
   background: black;
-   
   color: white;
   right:0;
   left:0;
   bottom:0;
-  position:absolute
+  position:absolute;
 }
 .profileimg {
   max-width:200px;
@@ -58,4 +60,9 @@ section {
 .secti {
   color:rgb(226, 68, 68);
   display: inline;
+}
+
+.badges:hover {
+  color:rgb(226, 68, 68);
+  transform: scale(1.1);
 }
