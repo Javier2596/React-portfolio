@@ -8,8 +8,7 @@ import '../styles/index.css';
 function Footer() {
   return (
       <footer className="foot text-center">
-        <h1>
-          
+        <h1 className="">
           
             <a href="https://github.com/Javier2596">
               <DiGithubBadge className="badges"/>
