@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-app/static/css/main.cc6a5c61.css",
+    "main.js": "/react-portfolio-app/static/js/main.ccbad1a7.js",
+    "static/media/IntentionalHealth.png": "/react-portfolio-app/static/media/IntentionalHealth.2cf5c088d0efa45d54fc.png",
+    "static/media/profilePic.png": "/react-portfolio-app/static/media/profilePic.d7301ac9f44c8af3c75d.png",
+    "static/media/PokeProj.png": "/react-portfolio-app/static/media/PokeProj.8d53068500c0137d7479.png",
+    "index.html": "/react-portfolio-app/index.html",
+    "main.cc6a5c61.css.map": "/react-portfolio-app/static/css/main.cc6a5c61.css.map",
+    "main.ccbad1a7.js.map": "/react-portfolio-app/static/js/main.ccbad1a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc6a5c61.css",
+    "static/js/main.ccbad1a7.js"
+  ]
+}
